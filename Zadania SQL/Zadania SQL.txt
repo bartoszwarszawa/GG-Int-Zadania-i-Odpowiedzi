@@ -1,0 +1,14 @@
+Zadanie 1
+
+SELECT lottery_tickets.*
+FROM lotteries 
+INNER JOIN lottery_tickets ON lotteries.id = lottery_tickets.lottery_id
+WHERE lotteries.slug=[SLUG]
+AND lottery_tickets.created_at <= '2020-08-20';
+
+
+Zadanie 2
+
+SELECT timezone, count(timezone) count
+FROM lotteries 
+GROUP BY timezone

@@ -1,0 +1,78 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+body .counter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+  width: 500px;
+}
+
+body .counter-container .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .counter-container .counter .counter-title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body .counter-container .counter .counter-box {
+  margin: 5px 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .counter-container .counter .counter-box .line {
+  position: absolute;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+body .counter-container .counter .counter-box .counter-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  color: #fff;
+  line-height: 50%;
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=style.css.map */
